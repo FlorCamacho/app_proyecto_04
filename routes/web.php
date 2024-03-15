@@ -17,10 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Tailwind
 /*Route::get('/', function () {
     return view('app');
 });*/
 
+//React
 /*Route::get('/', function () {
     return view('react');
 });*/
+
+//Info PHP
+/*Route::get('/', function () {
+    phpinfo();
+})->name('phpinfo');*/
