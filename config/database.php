@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mongodb'),
+    'default' => env('MONGODB_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -47,7 +47,7 @@ return [
             'drivre' => 'mongodb',
             'host' => env('MONGODB_HOST', '127.0.0.1'),
             'port' => env('MONGODB_PORT', 27017),
-            'database' => env('MONGODB_DATABASE', 'db_actividad_04'),
+            'database' => env('MONGODB_DATABASE', 'db_dulces_nanas'),
             'username' => env('MONGODB_USERNAME'),
             'password' => env('MONGODB_PASSWORD'),
             'options' => [
